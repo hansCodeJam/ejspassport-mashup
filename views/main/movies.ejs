@@ -9,7 +9,7 @@
       
         <div class>
             <% movies.forEach((el)=>{ %>
-                <div class="card">
+                <div>
                     <img src= <%='https://image.tmdb.org/t/p/w185'+ el[1] %>>
                     <div>
                         <h2> Title: <%= el[0] %> </h5>
@@ -18,7 +18,7 @@
                 </div>
             <%})%>
         </div>
-        
+
         <div>
             <%- include('../partials/footer') %>
         </div>
